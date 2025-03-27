@@ -9,22 +9,12 @@ import { ThemeWidgetSwitch } from './ThemeWidgetSwitch';
 export const Header = () => (
 	<header className="bg-neutral-200 dark:bg-neutral-500 fixed top-0 flex min-h-14 w-full justify-center">
 		<Div className="container flex flex-row items-center justify-between px-2 md:!px-14">
-			<a href="/">
-				<Image
-					src={logoRaketa}
-					width="20"
-					className="mt-1 flex md:hidden"
-					alt="Megatizer header logo mobile"
-				/>
+			<a href="/" className="mt-1 flex md:!hidden">
+				<Image src={logoRaketa} width="20" alt="Megatizer header logo mobile" />
 			</a>
 
-			<a href="/">
-				<Image
-					src={logoRaketaText}
-					width="156"
-					className="mt-2 hidden md:flex"
-					alt="Megatizer header logo desktop"
-				/>
+			<a href="/" className="mt-2 hidden md:!flex">
+				<Image src={logoRaketaText} width="156" alt="Megatizer header logo desktop" />
 			</a>
 
 			<HStack className="items-center gap-x-3">
