@@ -1,17 +1,8 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import { Button } from '@parabit/megatizerui';
 
 export function Counter() {
-  const [count, setCount] = useState(0);
+	const [count, setCount] = useState(0);
 
-  return (
-    <button
-      type="button"
-      className={
-        "inline-block border border-black rounded bg-gray-200 px-2 py-1 text-xs font-medium uppercase leading-normal"
-      }
-      onClick={() => setCount((count) => count + 1)}
-    >
-      Counter {count}
-    </button>
-  );
+	return <Button onClick={() => setCount((count) => count + 1)}>Counter {count}</Button>;
 }
