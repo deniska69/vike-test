@@ -11,8 +11,9 @@ export default {
 	Layout,
 
 	// https://vike.dev/head-tags
-	title: 'My Vike App',
-	description: 'Demo showcasing Vike',
+	lang: 'ru',
+	title: 'Megatizer - система быстрого запуска рекламы',
+	description: 'Платформа размещения рекламы в соцсетях',
 
 	extends: vikeReact,
 } satisfies Config;

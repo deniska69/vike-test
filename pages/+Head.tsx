@@ -2,12 +2,12 @@
 
 import React from 'react';
 
-import logoUrl from '../assets/logo.svg';
+import logoUrl from '@assets/favicon.svg';
 
-export default function HeadDefault() {
-	return (
-		<>
-			<link rel="icon" href={logoUrl} />
-		</>
-	);
-}
+const HeadDefault = () => (
+	<>
+		<link rel="icon" href={logoUrl} />
+	</>
+);
+
+export default HeadDefault;

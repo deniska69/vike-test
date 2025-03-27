@@ -3,7 +3,8 @@ import './tailwind.css';
 
 import React from 'react';
 
-import logoUrl from '../assets/logo.svg';
+import logoUrl from '@assets/favicon.svg';
+
 import { Link } from '../components/Link.js';
 
 export default function LayoutDefault({ children }: { children: React.ReactNode }) {
